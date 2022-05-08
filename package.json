@@ -2,9 +2,12 @@
   "name": "Curriculo",
   "version": "1.0.0",
   "description": "Curriculo Jorge Gonzalez",
-  "main": "index.js",
   "author": "Jorge Gonzalez",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jorge-Gonzalez/curriculo.git"
+  }
   "scripts": {
     "build": "build-html && build-css && build-pdf",
     "build-css": "sass --style=compressed src/styles:build/styles",
