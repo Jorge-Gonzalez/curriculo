@@ -1,0 +1,118 @@
+@import 'fonts.css';
+
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+	font-family: 'HelveticaNeuee', sans-serif;
+}
+
+body {
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'HelveticaNeuee', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-size: 1em;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 0 2em;
+	max-width: 1040px;
+	margin-bottom: 50px;
+	line-height: 1.6em;
+}
+
+.header {
+	margin: 0 auto;
+	padding: 0 2em;
+	max-width: 1040px;
+}
+
+.left-col {
+	/*background-color: pink;*/
+}
+
+h1, h2 {
+	font-weight: 400;
+}
+
+h1 {
+	margin-top: 1em;
+	font-size: 2.9em;
+	margin-bottom: 1em;
+}
+
+h1, h2 {
+	font-family: 'Scope One', serif;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1em;
+	margin-bottom: 0px;
+	margin-top: 4em;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	border-left: 2px solid #555;
+	margin-left: 2px;
+	padding-left: 1.8em;
+	text-indent: 0px;
+}
+
+.date {
+	font-size: .8em;
+	display: inline;
+}
+
+.title {
+	display: inline;
+}
+
+.l p {
+	margin-bottom: 0;
+}
+
+#logo {
+	width: 15em;
+	margin-top: 5em;
+}
+
+a {
+	color: black;
+}
+
+.contact {
+	font-size: .8em;
+	margin-bottom: 5em;
+}
+
+.contact a {
+	text-decoration: none;
+}
+
+.icon {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	color: #444;
+}
+
+.icn {
+	height: 20px;
+}
+
+.field {
+	margin-right: 21px;
+	margin-left: 8px;
+}
+
+.pic {
+	width: 10em;
+}
+
+@media print {
+	body {
+		font-size: 9px;
+	}
+}

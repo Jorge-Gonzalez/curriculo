@@ -1,0 +1,88 @@
+doctype html
+html(lang= lang)
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="styles/main.css", rel="stylesheet")
+
+  body
+    .main
+      .header
+
+        img#logo(src='images/'+logo alt=name)
+
+        h1= name
+
+      .block-group
+        .block.work
+
+          h2= jobs.title
+
+          each work in jobs.content
+
+            if work.company
+              h3.company= work.company
+
+            if work.job
+              p.job= work.job + ' ' + work.date
+
+            if work.desc
+              p.desc= work.desc
+            
+            if work.tasks
+              ul
+                each task in work.tasks
+                  li= task
+
+        .block.photo
+
+          img.pic(src= 'images/'+photo)
+
+        .block.contact
+            ul
+              li
+                a(href='mailto:' + contact.mail)
+                  img.icon(src="images/mail.svg")
+                  | #{contact.mail}
+              li
+                img.icon(src="images/phone.svg")
+                | #{contact.phone}
+              li
+                img.icon(src="images/location.svg")
+                | #{contact.location}
+              li
+                a(href='https://www.' + contact.behance)
+                  img.icon(src="images/behance.svg")
+                  | #{contact.behance}
+
+        .block.contracts
+          h2= contracts.title
+          
+          each contract in contracts.content
+          
+            if contract.client
+              h3.client= contract.client
+
+            p.contract= contract.project + ' ' + contract.date
+
+            if contract.tasks
+              ul
+                each task in contract.tasks
+                  li= task
+
+        .block.other
+          h2= recognitions.title
+
+          each recognition in recognitions.content
+            p= recognition.desc + recognition.date
+
+          h2= education.title
+          p= education.content
+
+          h2= languages.title
+          ul
+            each lang in languages.list
+              li= lang
+
+          h2= interests.title
+          p= interests.content

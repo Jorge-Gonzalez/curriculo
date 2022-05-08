@@ -1,0 +1,419 @@
+name: Jorge González Céspedes
+
+logo: jg_logo.svg
+
+photo: jorge_gonzalez-pic.jpg
+
+jobs:
+  title:
+    es: Experiencia Laboral
+    en: Work experience
+
+  content:
+    - company:
+        es: Empresa Propia
+        en: Business Owner
+
+      job:
+        es: Construcción de apartamentos
+        en: Appartments Construction
+
+      desc:
+        es: |
+          Remodelación de una casa y construcción de dos apartamentos para arrendar.
+          Dirección exitosa de un proyecto constructivo, superando desafíos técnicos y administrativos.
+          Con brillante manejo del presupuesto y buena coordinación con colaboradores altamente calificados.
+          Alcanzando un producto final de excelente calidad, a un costo muy competitivo.
+        en: |
+          nulo
+
+      tasks:
+        es:
+          - Diseño.
+          - Dirección y supervisión de la obra.
+          - Elaboración de Estructura metálica.
+          - Construcción liviana, muro seco.
+          - Instalaciones eléctricas.
+          - Instalaciones sanitarias.
+          - Carpintería y acabados.
+        en: |
+          nulo
+
+      date: 2020 - 2021
+
+    - company: Sykes
+
+      job:
+        es: Servicio al Cliente
+        en: Customer Service
+
+      desc:
+        es: |
+          Con buena entonación de la voz y amabilidad, los clientes siempre recibieron un genuino interés por ellos y por resolver efectivamente sus necesidades y o consultas.
+          Participación en la capacitación CompTIA A+ con el mejor promedio del grupo.
+        en: |
+          nulo
+
+      date: 2017
+
+    - company: M & R G
+
+      job:
+        es: Sitio web Muebles Conceptuales.
+        en: Website Muebles Conceptuales.
+
+      desc:
+        es: |
+          Un diseño único y moderno, con exquisito cuidado al detalle, se desarrollo sobre el concepto de simpleza y elegancia con un toque de originalidad.
+          Utilizamos las tecnologías más modernas para garantizar una experiencia fluida y eficaz.
+        en: |
+          nulo
+
+      tasks:
+        - es: Concepto, diseño y desarrollo web.
+          en: nulo
+        - es: Sass, Pug, Coffescript, Grunt, Nodejs.
+          en: Sass, Pug, Coffescript, Grunt, Nodejs.
+        - es: Fotografía.
+          en: Photography.
+
+      date: 2015
+
+    - company:
+        es: Mueblería
+        en: Furniture Business
+
+      job:
+        es: Propietario
+        en: Owner - Manager
+
+      desc:
+        es: |
+          Mueblería ubicada en Río Frío de Sarapiquí.
+          Ebanistería de muebles modernos y tradicionales de maderas solidas de alta calidad.
+
+        en: |
+          nulo
+
+      tasks:
+        es:
+          - Amplia experiencia en mobiliario de madera.
+          - Muebles de cocina con melamina.
+          - Puertas
+
+      date: 2010 - 2014
+
+    - company:
+        es: Puentes Colgantes del Arenal
+        en: Arenal Hanging Bridges
+
+      desc:
+        es: Brindar a los turistas una agradable excursión a través de maravillosos paisajes naturales del bosque lluvioso.
+        en: nulo
+
+      date: 2010
+
+    - company: Axis Software
+
+      job:
+        es: Encargado del departamento web.
+        en: In charge of the web department.
+
+      date: 2007 - 2009
+
+    - company: Nasa Sports
+
+      job:
+        es: Encargado del departamento de diseño.
+        en: In charge of the design department.
+
+      date: 2003 - 2006
+
+    - company: Bet On Sports
+
+      job:
+        es: Diseñador y desarrollador web.
+        en: Web designer and developer.
+
+      date: 1999 - 2002
+
+      tasks:
+        - es: Identidad de marca para Industria de apuestas y deportes.
+          en: Brand identity for gambling and sports industry.
+        - es: Anunciados en prestigiosas publicaciones de U.S.A.
+          en: Announced in prestigious USA publications.
+
+    - company: Sysde
+
+      job:
+        es: Encargado de la imagen y producción gráfica de la empresa.
+        en: In charge of the image and graphic production of the company.
+
+      date: 1997 - 1999
+
+      desc:
+        es: |
+          Posicionar la imagen de la empresa como líder a nivel latinoamericano.
+          A través de una campaña en medios impresos del área financiera, eventos, presentaciones, folletos especializados, correos y sitio web.
+        en: nulo
+
+      tasks:
+        - es: Identidad de marca para la industria de tecnología y finanzas.
+          en: Brand identity for the technology and banking industry.
+        - es: Folletos de productos.
+          en: Product Brochures.
+        - es: Anunciados en prestigiosas publicaciones de América Latina.
+          en: Announced in prestigious Latin American publications.
+        - es: Diseño, y diagramación.
+          en: Design and layout.
+        - es: Desarrollo web.
+          en: Web development.
+        - es: Macromedia Flash, HTML Dinámico, Javascript.
+          en: Macromedia Flash, Dynamic HTML, Javascript.
+        - es: Presentaciones de multimedios, con Macromedia Director.
+          en: Multimedia presentations, with Macromedia Director.
+
+    - company: Bio Land
+
+      job:
+        es: Diseñador
+        en: Designer
+
+      desc:
+        es: nulo
+        en: nulo
+
+      date: 1993 - 1996
+
+      tasks:
+        - es: Identidad de marca para la industria alimentaria y cosmética.
+          en: Brand identity for the food and cosmetic industry.
+        - es: Ilustración digital.
+          en: Digital illustration
+        - es: Diseño de empaques.
+          en: Packaging design.
+        - es: Diseño digital en computadoras PC con los programas "Corel Draw", "PhotoStyler" y "Phothoshop".
+          en: Digital design on PC computers with the software Corel Draw, PhotoStyler and Phothoshop.
+        - es: Artes finales para flexografía.
+          en: Final arts for flexography.
+
+    - company: Gozaka
+
+      job:
+        es: Diseñador
+        en: Designer
+
+      desc:
+        es: |
+          Aprendizaje autodidacta del `software` Adobe Ilustrador con manuales en inglés sin conocer el idioma.
+          Enseñanza de este software al departamento de diseño.
+          Implementación un sistema de producción de separaciones de color digitales, que se venia haciendo manualmente.
+          Reconocido como empleado del año por el Gerente General y Propietario de la empresa.
+        en: nulo
+
+      date: 1989 - 1992
+
+      tasks:
+        - es: Identidad de marca para prendas de vestir.
+          en: Brand identity for the food and cosmetic industry.
+        - es: Ilustración digital.
+          en: Digital illustration.
+        - es: 'Procesos de pre prensa: separaciones de color y montajes.'
+          en: 'Pre press processes: color separations and assemblies.'
+        - es: Aprendizaje autónomo de diseño e ilustración digital con Adobe Ilustrador y "Aldus Freehand".
+          en: Self-taught digital illustration with Adobe Illustrator and Aldus Freehand.
+        - es: Producción de separaciones de color por computadora.
+          en: Computer generated color separations.
+        - es: Capacitación del departamento en diseño digital con equipos "Macintosh".
+          en: Departmental training in digital design with Macintosh computers.
+
+    - company: Neón Nieto
+
+      job:
+        es: Diseñador
+        en: Designer
+
+      desc:
+        es: |
+          Contratado para el puesto de diseñador a la edad de 18 años.
+          Elegido encargado del novedoso equipo de computo para digitalización y ploteo para modernizar la producción y de entrenar a los otros diseñadores.
+        en: nulo
+
+      date: 1985 - 1986
+
+      tasks:
+        - es: Diseño de rótulos luminosos.
+          en: Design of luminous signs.
+        - es: Bocetos y Artes Finales elaborados a mano.
+          en: Sketches and Finish Arts made by hand.
+        - es: Digitalización y ploteo de logotipos con equipo "Apple IIe".
+          en: Digitalization and plotting of logos with Apple IIe equipment.
+        - es: Ilustración.
+          en: Illustration.
+        - es: Tipografía.
+          en: Typography.
+
+contracts:
+  title:
+    es: Otros Contratos
+    en: Other Contracts
+
+  content:
+    - client: Popular Pensiones.
+
+      project:
+        es: Memoria Anual, virtual e impresa.
+        en: Printed and virtual annual report.
+
+      desc: |
+        Reunirse con la gerencia de la institución para dar forma al concepto y presentar los bocetos.
+        Solucionar dificiles requerimientos técnicos, en cuanto al tamaño de la presentación digital y el contenido de texto, gráficos, audio, imágenes y animaciones que requeria.
+
+
+      tasks:
+        - es: Diseño y desarrollo de presentación de multimedios.
+          en: Design and development of multimedia presentation.
+        - es: Actionscript, Flash, SWF.
+          en: Actionscript, Flash, SWF.
+        - es: Modelado 3D, animación.
+          en: 3D modeling, animation.
+        - es: Cinema 4D.
+          en: Cinema 4D.
+
+      date: 2004, 2006, 2007.
+
+    - client: Grupo Promérica Centroamérica.
+
+      desc: Diseño y desarrollo de un sitio web para cada país sede del grupo.
+
+      project:
+        - es: Sitios web para la red bancaria.
+          en: Websites for the banking network.
+
+      date: 2002
+
+    - client: Tecnicard
+
+      project:
+        - es: Sitio web de la empresa, e interfaz para aplicación web.
+          en: Company's website and web app interface.
+
+      date: 2001
+
+    - client: SUGEF
+
+      project:
+        - es: Sitio web institucional.
+          en: Institutional website.
+
+      date: 1998
+
+    - client: Editorial Santillana
+
+      project:
+        - es: Ilustraciones para libros escolares de primaria.
+          en: Illustrations for elementary school books.
+
+      date: 1996
+
+    - client: Editorial Costa Rica
+
+      project:
+        - es: Diseño de portadas para varios libros.
+          en: Design of book covers.
+
+      date: 1994
+
+    - client: IFCASA
+
+      project:
+        - es: Curso de Corel Draw.
+          en: Corel Draw course.
+
+      date: 1994
+
+    - client: Periódico La Prensa Libre
+
+      desc: Curso para el departamento de diseño y diagramación.
+
+      project:
+        - es: Curso de Adobe Illustrador.
+          en: Adobe Illustrator course.
+
+      date: 1993
+
+    - client: Café Brenes
+
+      project:
+        es: Diseño y fabricación de mini tiendas de café para los Supermercados Periféricos.
+        en: Design and manufacture of mini coffee shops for Periféricos Supermarkets
+
+      desc:
+        es: |
+          Rediseño de cadena de quioscos ubicados dentro del supermercado para el expendio de café en grano y molido.
+          Para el diseño se procuro crear una ambiente que combinara lo tradicional con lo moderno al combinar, madera y laminas acrilicas.
+          Al presentar el diseño al cliente, se le hace la oferta para fabricar los ocho locales, y se consigue el contrato.
+          
+        en: nulo
+
+      date: 1987
+
+      tasks:
+        - es: Diseño de mobiliario.
+          en: Furniture design.
+        - es: Desarrollo de concepto.
+          en: Concept development.
+        - es: Presentación al cliente.
+          en: Presentation to the client.
+        - es: Venta del diseño y la fabricación de las mini tiendas.
+          en: Sale of the design and manufacture of mini stores.
+        - es: Subcontratación y supervisión de la fabricación.
+          en: Sub contracting and manufacturing supervision.
+        - es: Fabricación de urnas con técnicas de moldeado de acrílico.
+          en: Manufacture of urns with acrylic molding techniques.
+
+recognitions:
+  title:
+    es: Reconocimientos
+    en: Recognitions
+
+  content:
+    - desc:
+        es: 'Primer premio: Concurso Nacional, Diseño de Portadas de la Guía Telefónica del ICE.'
+        en: 'First Prize: Cover Design Contest of the ICE Telephone Guide.'
+      date: 1995
+
+education:
+  title:
+    es: Educación
+    en: Education
+
+  content:
+    es: Escuela de Bellas Artes, Universidad de Costa Rica.
+    en: School of Fine Arts, University of Costa Rica.
+
+languages:
+  title:
+    es: Idiomas
+    en: Languages
+
+  list:
+    - es: 'Español: Lengua materna.'
+      en: 'Spanish: Mother tongue.'
+    - es: 'Inglés: Intermedio Superior.'
+      en: 'English: Upper Intermediate.'
+
+interests:
+  title:
+    es: Intereses
+    en: Interests
+
+  content:
+    es: Baloncesto, Ajedrez, Escultura.
+    en: Basketball, Chess, Sculpture.
+
+contact:
+  mail: jorge.gonzalez@live.com
+  phone: +506 83929512
+  location: San José, Costa Rica.
+  behance: behance.net/JorgeG

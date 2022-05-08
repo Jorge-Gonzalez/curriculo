@@ -1,0 +1,38 @@
+{
+  "name": "Curriculo",
+  "version": "1.0.0",
+  "description": "Curriculo Jorge Gonzalez",
+  "main": "index.js",
+  "author": "Jorge Gonzalez",
+  "license": "MIT",
+  "scripts": {
+    "build": "build-html && build-css && build-pdf",
+    "build-css": "sass --style=compressed src/styles:build/styles",
+    "build-html": "yarn yaml && yarn lang && yarn render-spanish && yarn render-english",
+    "build-pdf": "yarn pdf-es && yarn pdf-en",
+    "clean": "rimraf build",
+    "mkdirs": "mkdir -p build",
+    "copy": "cp -r assets/* build",
+    "build-assets": "yarn clean && yarn mkdirs && yarn copy",
+    "lang": "node scripts/create_lang_json.js",
+    "pdf-en": "wkhtmltopdf build/index.en.html build/jorge_gonzalez.en.pdf",
+    "pdf-es": "wkhtmltopdf build/index.es.html build/jorge_gonzalez.es.pdf",
+    "reload": "livereload build -e 'html'",
+    "render-spanish": "pug -P -O build/curriculo.es.json -o build -E es.html src/index.pug",
+    "render-english": "pug -P -O build/curriculo.en.json -o build -E en.html src/index.pug",
+    "watch": "chokidar \"src/*.yml\" \"src/*.pug\" -c \"yarn build-html\"",
+    "yaml": "js-yaml src/curriculo.yml > build/curriculo.json"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "http-server": "^14.1.0",
+    "js-yaml": "^4.1.0",
+    "jsonfile": "^6.1.0",
+    "livereload": "^0.9.3",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6",
+    "rimraf": "^3.0.2",
+    "sass": "^1.51.0",
+    "watch": "^1.0.2"
+  }
+}
