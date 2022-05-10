@@ -11,22 +11,22 @@ jobs:
 
   content:
     - company:
-        es: Empresa Propia
-        en: Business Owner
+        es: Empresa propia
+        en: Own company
 
       job:
         es: Construcción de apartamentos
-        en: Appartments Construction
+        en: Appartment construction
 
       desc:
         es: |
           Remodelación de una casa y construcción de dos apartamentos para arrendar.
           Dirección exitosa de un proyecto constructivo, superando desafíos técnicos y administrativos.
-          Con brillante manejo del presupuesto y buena coordinación con colaboradores altamente calificados.
-          Alcanzando un producto final de excelente calidad, a un costo muy competitivo.
+          Con brillante manejo del presupuesto y buena coordinación con colaboradores altamente calificados se alcanzando un producto final de excelente calidad, a un costo muy competitivo.
         en: |
-          nulo
-
+          Remodeling of a house and construction of two apartments for rent.
+          Successful management of a construction project, overcoming technical and administrative challenges.
+          With great budget management and good coordination with highly qualified collaborators, a final product of excellent quality was achieved at a very competitive cost.
       tasks:
         es:
           - Diseño.
@@ -36,9 +36,17 @@ jobs:
           - Instalaciones eléctricas.
           - Instalaciones sanitarias.
           - Carpintería y acabados.
-        en: |
-          nulo
+        en:
+          - Design.
+          - Work monitoring and management.
+          - Metal structure building.
+          - Light gauge steel frame construction.
+          - Drywall hanging and taping.
+          - Electrical wiring.
+          - Plumbing.
+          - Carpentry and finishing.
 
+      
       date: 2020 - 2021
 
     - company: Sykes
@@ -49,10 +57,11 @@ jobs:
 
       desc:
         es: |
-          Con buena entonación de la voz y amabilidad, los clientes siempre recibieron un genuino interés por ellos y por resolver efectivamente sus necesidades y o consultas.
+          Con buena entonación de la voz y amabilidad, se brindó a los clientes un genuino interés por ellos y por resolver efectivamente sus necesidades y o consultas.
           Participación en la capacitación CompTIA A+ con el mejor promedio del grupo.
         en: |
-          nulo
+          Customers were shown a real interest in them and in efficiently addressing their requests and/or concerns through good voice tone and friendliness.
+          Participation in CompTIA A+ training with the highest group average.
 
       date: 2017
 
@@ -60,18 +69,19 @@ jobs:
 
       job:
         es: Sitio web Muebles Conceptuales.
-        en: Website Muebles Conceptuales.
+        en: ‘Muebles Conceptuales’ Conceptual Furniture Website.
 
       desc:
         es: |
           Un diseño único y moderno, con exquisito cuidado al detalle, se desarrollo sobre el concepto de simpleza y elegancia con un toque de originalidad.
           Utilizamos las tecnologías más modernas para garantizar una experiencia fluida y eficaz.
         en: |
-          nulo
+          A unique and modern design, with exquisite attention to detail, was developed on the concept of simplicity and elegance with a touch of originality.
+          Using the latest web technologies to ensure a smooth and efficient experience.
 
       tasks:
         - es: Concepto, diseño y desarrollo web.
-          en: nulo
+          en: Concept, design and web development.
         - es: Sass, Pug, Coffescript, Grunt, Nodejs.
           en: Sass, Pug, Coffescript, Grunt, Nodejs.
         - es: Fotografía.
@@ -85,7 +95,7 @@ jobs:
 
       job:
         es: Propietario
-        en: Owner - Manager
+        en: Owner/Manager
 
       desc:
         es: |
@@ -93,7 +103,8 @@ jobs:
           Ebanistería de muebles modernos y tradicionales de maderas solidas de alta calidad.
 
         en: |
-          nulo
+          Furniture store located in Río Frío de Sarapiquí.
+          Modern and traditional furniture craftsmanship made of high-quality solid woods.
 
       tasks:
         es:
@@ -108,8 +119,8 @@ jobs:
         en: Arenal Hanging Bridges
 
       desc:
-        es: Brindar a los turistas una agradable excursión a través de maravillosos paisajes naturales del bosque lluvioso.
-        en: nulo
+        es: Brindar una experiencia inmersiva a los turistas, a través de los maravillosos paisajes naturales del bosque lluvioso.
+        en: Provide tourists with an immersive experience through the rainforest's wonderful natural landscapes.
 
       date: 2010
 
@@ -125,7 +136,19 @@ jobs:
 
       job:
         es: Encargado del departamento de diseño.
-        en: In charge of the design department.
+        en: Head of web design and development dept.
+
+      desc:
+        es: |
+          Liderar el equipo de diseñadores y desarrolladores en el diseño, producción y mantemimiento de sitios web e interfaz de usuario para aplicaciones web de sportbook y casinos en linea. Y en le diseño y producción de materiales publicitarios para campañas en linea, y pautas en revistas.
+          Dirección de los proyectos desde el concepto hasta la implementación.
+          Creación de experiencias de usuario atractivas y interacciones de usuario effectivas.
+          Mantenerse al día con los estándares y tendencias de la industria.
+        en: |
+          Lead the team of designers and developers in the design, production and maintenance of websites and user interfaces for sportbook and online casino web applications. And in the design and production of advertising materials for online campaigns, and magazine ads.
+          Drive projects from conception to implementation.
+          Creating engaging user experiences and effective user interactions.
+          Keep up to date with industry standards and trends.
 
       date: 2003 - 2006
 
@@ -137,8 +160,16 @@ jobs:
 
       date: 1999 - 2002
 
+      desc:
+        es: |
+          El puesto inicial es diseñador, pero pronto se adiciona el desarrollo web reduciendo costos y agilizando la productividad de la empresa.
+          Diseñar los proyectos más novedosos y relevantes de la empresa; como el sitio web principal de BetOnSports.com o el sitio InventaBet.com
+          Posisionamiento de la empresa como líder global en apuestas deportivas.
+        en: |
+          nulo
+
       tasks:
-        - es: Identidad de marca para Industria de apuestas y deportes.
+        - es: Identidad de marca para Industria de apuestas deportivas.
           en: Brand identity for gambling and sports industry.
         - es: Anunciados en prestigiosas publicaciones de U.S.A.
           en: Announced in prestigious USA publications.
@@ -146,15 +177,15 @@ jobs:
     - company: Sysde
 
       job:
-        es: Encargado de la imagen y producción gráfica de la empresa.
-        en: In charge of the image and graphic production of the company.
+        es: Encargado de la imagen diseño y producción gráfica de la empresa.
+        en: In charge of the image design and graphic production of the company.
 
       date: 1997 - 1999
-
       desc:
         es: |
-          Posicionar la imagen de la empresa como líder a nivel latinoamericano.
-          A través de una campaña en medios impresos del área financiera, eventos, presentaciones, folletos especializados, correos y sitio web.
+          Posicionamiento de la imagen de la empresa como líder a nivel latinoamericano. A través de una campaña en medios impresos del área financiera, eventos, presentaciones, folletos especializados, correos y sitio web.
+          Cotización, contratación y supervición de empresas litograficas, para la producción de materiales impresos.
+          Aprendizaje autodidacta de desarrollo web. En la empresa tube acceso a internet por primera vez y eso me motivo a aprender y solicitar la oportunidad de hacer el sitio web de la empresa.
         en: nulo
 
       tasks:
@@ -180,7 +211,9 @@ jobs:
         en: Designer
 
       desc:
-        es: nulo
+        es: |
+          Pocicionamiento de la imagen de la empresa como líder nacional en productos macrobióticos.
+          Implementacion de sistema de diseño digital en computadoras PC. Adquisición del equipo, conversión y configuración de documentos para poder ser procesados por fotocompositoras que trabajan en ambiente Macintosh.
         en: nulo
 
       date: 1993 - 1996
@@ -189,7 +222,7 @@ jobs:
         - es: Identidad de marca para la industria alimentaria y cosmética.
           en: Brand identity for the food and cosmetic industry.
         - es: Ilustración digital.
-          en: Digital illustration
+          en: Digital illustration.
         - es: Diseño de empaques.
           en: Packaging design.
         - es: Diseño digital en computadoras PC con los programas "Corel Draw", "PhotoStyler" y "Phothoshop".
@@ -198,7 +231,6 @@ jobs:
           en: Final arts for flexography.
 
     - company: Gozaka
-
       job:
         es: Diseñador
         en: Designer
@@ -208,8 +240,10 @@ jobs:
           Aprendizaje autodidacta del `software` Adobe Ilustrador con manuales en inglés sin conocer el idioma.
           Enseñanza de este software al departamento de diseño.
           Implementación un sistema de producción de separaciones de color digitales, que se venia haciendo manualmente.
-          Reconocido como empleado del año por el Gerente General y Propietario de la empresa.
-        en: nulo
+          Reconocido como empleado del año por el Gerente General y Propietario de la empresa
+
+        en: |
+          nulo
 
       date: 1989 - 1992
 
@@ -255,8 +289,8 @@ jobs:
 
 contracts:
   title:
-    es: Otros Contratos
-    en: Other Contracts
+    es: Contratos
+    en: Contracts
 
   content:
     - client: Popular Pensiones.
