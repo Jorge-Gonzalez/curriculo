@@ -65,6 +65,9 @@ html(lang= lang)
 
             p.contract= contract.project + ' ' + contract.date
 
+            if contract.desc
+              p= contract.desc
+
             if contract.tasks
               ul
                 each task in contract.tasks
