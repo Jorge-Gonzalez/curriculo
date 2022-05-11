@@ -16,13 +16,13 @@ jobs:
 
       job:
         es: Construcción de apartamentos
-        en: Appartment construction
+        en: Apartment construction
 
       desc:
         es: |
           Remodelación de una casa y construcción de dos apartamentos para arrendar.
           Dirección exitosa de un proyecto constructivo, superando desafíos técnicos y administrativos.
-          Con brillante manejo del presupuesto y buena coordinación con colaboradores altamente calificados se alcanzando un producto final de excelente calidad, a un costo muy competitivo.
+          Con brillante manejo del presupuesto y buena coordinación con colaboradores altamente calificados se alcanzó un producto final de excelente calidad, a un costo muy competitivo.
         en: |
           Remodeling of a house and construction of two rental apartments.
           Successful management of a construction project, overcoming technical and administrative challenges.
@@ -58,7 +58,7 @@ jobs:
       desc:
         es: |
           Se mostró a los clientes un interés real en ellos y en atender de manera eficiente sus solicitudes y/o inquietudes a través de un buen tono de voz y amabilidad.
-          Participación en la curso CompTIA A+ con el mejor promedio del grupo.
+          Participación en el curso CompTIA A+ con el mejor promedio del grupo.
         en: |
           Customers were shown a real interest in them and in efficiently addressing their requests and/or concerns through good voice tone and friendliness.
           CompTIA A+ course participation with the highest grade in the group.
@@ -73,7 +73,7 @@ jobs:
 
       desc:
         es: |
-          Un diseño único y moderno, con exquisito atención al detalle, se desarrollo sobre el concepto de simpleza y elegancia con un toque de originalidad.
+          Un diseño único y moderno, con exquisito atención al detalle, se desarrolló sobre el concepto de simpleza y elegancia con un toque de originalidad.
           Utilizamos las tecnologías más modernas para garantizar una experiencia fluida y eficaz.
         en: |
           A unique and modern design, with exquisite attention to detail, was developed on the concept of simplicity and elegance with a touch of originality.
@@ -82,8 +82,8 @@ jobs:
       tasks:
         - es: Concepto, diseño y desarrollo web.
           en: Concept, design and web development.
-        - es: Sass, Pug, Coffescript, Grunt, Nodejs.
-          en: Sass, Pug, Coffescript, Grunt, Nodejs.
+        - es: Sass, Pug, Coffeescript, Grunt, Nodejs.
+          en: Sass, Pug, Coffeescript, Grunt, Nodejs.
         - es: Fotografía.
           en: Photography.
 
@@ -100,7 +100,7 @@ jobs:
       desc:
         es: |
           Mueblería ubicada en Río Frío de Sarapiquí.
-          Ebanistería de muebles modernos y tradicionales de maderas solidas de alta calidad.
+          Ebanistería de muebles modernos y tradicionales de maderas sólidas de alta calidad.
           Experiencia con diversas técnicas para la elaboración de mobiliario de madera.
         en: |
           Furniture workshop located in Río Frío de Sarapiquí.
@@ -135,12 +135,12 @@ jobs:
 
       desc:
         es: |
-          Liderar el equipo de diseñadores y desarrolladores en el diseño, producción y mantemimiento de sitios web e interfaz de usuario para aplicaciones web de sportbook y casinos en linea. Y en le diseño y producción de materiales publicitarios para campañas en linea, y pautas en revistas.
+          Liderar el equipo de diseñadores y desarrolladores en el diseño, producción y mantenimiento de sitios web e interfaz de usuario para aplicaciones web de ‘sportsbooks’ y casinos en línea. Y en el diseño y producción de materiales publicitarios para campañas en línea, y pautas en revistas.
           Dirección de los proyectos desde el concepto hasta la implementación.
-          Creación de experiencias de usuario atractivas y interacciones de usuario effectivas.
+          Creación de experiencias de usuario atractivas e interacciones de usuario efectivas.
           Mantenerse al día con los estándares y tendencias de la industria.
         en: |
-          Lead the team of designers and developers in the design, production and maintenance of websites and user interfaces for sportbook and online casino web applications. And in the design and production of advertising materials for online campaigns, and magazine ads.
+          Lead the team of designers and developers in the design, production and maintenance of websites and user interfaces for sportsbook and online casino web applications. And in the design and production of advertising materials for online campaigns, and magazine ads.
           Drive projects from conception to implementation.
           Creating engaging user experiences and effective user interactions.
           Keep up to date with industry standards and trends.
@@ -158,7 +158,7 @@ jobs:
       desc:
         es: |
           Contribuir al establecimiento de la empresa como líder global en apuestas deportivas.
-          El trabajo comenzó como diseñador, pero debido a las habilidades demostradas, el desarrollo web paso de ser subcontratado a manejarse internamente, lo que redujo los gastos y aumentó la productividad.
+          El trabajo comenzó como diseñador, pero debido a las habilidades demostradas, el desarrollo web pasó de ser subcontratado a manejarse internamente, lo que redujo los gastos y aumentó la productividad.
           Diseñar los proyectos más novedosos y relevantes de la empresa; como el sitio web principal de la empresa, BetOnSports.com o el sitio InventaBet.com
         en: |
          Contributing to establishing the company as a worldwide sports betting leader.
@@ -168,20 +168,20 @@ jobs:
       tasks:
         - es: Identidad de marca para Industria de apuestas deportivas.
           en: Brand identity for gambling and sports industry.
-        - es: Campañas en las mas populares revistas de U.S.A.
+        - es: Campañas en las revistas más populares de U.S.A.
           en: Ad campaigns in America's most popular magazines.
 
     - company: Sysde
 
       job:
-        es: Encargado de la imagen diseño y producción gráfica de la empresa.
+        es: Encargado de la imagen, diseño y producción gráfica de la empresa.
         en: In charge of the image design and graphic production of the company.
 
       date: 1997 - 1999
       desc:
         es: |
           Posicionamiento de la imagen de la empresa como líder a nivel latinoamericano. A través de una campaña en medios impresos del área financiera, eventos, presentaciones, folletos especializados, correos y sitio web.
-          Cotización, contratación y supervición de empresas litograficas, para la producción de materiales impresos.
+          Cotización, contratación y supervisión de empresas litográficas, para la producción de materiales impresos.
           Aprendizaje autodidacta de desarrollo web. El descubrir la internet por primera vez fue de gran motivación para aprender esta tecnología, lo que condujo a realizar el sitio web de la empresa.
         en: |
           Positioning the company's image as the Latin American leader. Through a print media campaign in the financial sector, as well as events, presentations, customized brochures, mailings, and a website.
@@ -212,11 +212,11 @@ jobs:
 
       desc:
         es: |
-          Pocicionamiento de la imagen de la empresa como líder nacional en productos macrobióticos.
-          Implementacion de sistema de diseño digital en computadoras PC. Adquisición del equipo, conversión y configuración de documentos para poder ser procesados por fotocompositoras que trabajan en ambiente Macintosh.
+          Posicionamiento de la imagen de la empresa como líder nacional en productos macrobióticos.
+          Implementación de sistema de diseño digital en computadoras PC. Adquisición del equipo, conversión y configuración de documentos para poder ser procesados por foto compositoras que trabajan en ambiente Macintosh.
         en: |
           The company's reputation as a national leader in macrobiotic goods was repositioned.
-          Digital design system implementation on PC computers. Equipment acquisition, workflow setup, and document conversion to enable the final arts of being proccesed by photocomposers operating in a Macintosh environment. 
+          Digital design system implementation on PC computers. Equipment acquisition, workflow setup, and document conversion to enable the final arts of being processed by photo composers operating in a Macintosh environment. 
 
       date: 1993 - 1996
 
@@ -227,8 +227,8 @@ jobs:
           en: Digital illustration.
         - es: Diseño de empaques.
           en: Packaging design.
-        - es: Diseño digital en computadoras PC con los programas "Corel Draw", "PhotoStyler" y "Phothoshop".
-          en: Digital design on PC computers with the software Corel Draw, PhotoStyler and Phothoshop.
+        - es: Diseño digital en computadoras PC con los programas ‘Corel Draw’, ‘PhotoStyler’ y ‘Photoshop’.
+          en: Digital design on PC computers with the software Corel Draw, PhotoStyler and Photoshop.
         - es: Artes finales para flexografía.
           en: Final arts for flexography.
 
@@ -239,7 +239,7 @@ jobs:
 
       desc:
         es: |
-          Aprendizaje autodidacta del `software` Adobe Ilustrador basado en un manual en inglés a pesar de no conocer ahun el idioma.
+          Aprendizaje autodidacta del software Adobe Ilustrador basado en un manual en inglés a pesar de no conocer aún el idioma.
           Enseñanza del software al departamento de diseño.
           Modernización del sistema de producción de separaciones de color de manuales a digitales.
           Reconocimiento de empleado del año otorgado por el Gerente General y Propietario en la reunión anual.
@@ -259,11 +259,11 @@ jobs:
           en: Digital illustration.
         - es: 'Procesos de pre prensa: separaciones de color y montajes.'
           en: 'Pre press processes: color separations and assemblies.'
-        - es: Aprendizaje autónomo de diseño e ilustración digital con Adobe Ilustrador y "Aldus Freehand".
+        - es: Aprendizaje autónomo de diseño e ilustración digital con Adobe Ilustrador y ‘Aldus Freehand’.
           en: Self-taught digital illustration with Adobe Illustrator and Aldus Freehand.
         - es: Producción de separaciones de color por computadora.
           en: Computer generated color separations.
-        - es: Capacitación del departamento en diseño digital con equipos "Macintosh".
+        - es: Capacitación del departamento en diseño digital con equipos ‘Macintosh’.
           en: Departmental training in digital design with Macintosh computers.
 
     - company: Neón Nieto
@@ -275,7 +275,7 @@ jobs:
       desc:
         es: |
           Contratado para el puesto de diseñador a la edad de 18 años.
-          Elegido encargado del novedoso equipo de computo para digitalización y ploteo para modernizar la producción y de entrenar a los otros diseñadores.
+          Elegido encargado del novedoso equipo de cómputo para digitalización y ploteo para modernizar la producción y de entrenar a los otros diseñadores.
         en: |
           Hired for the position of designer at the age of 18.
           Assigned to manage the novel computer equipment for digitizing and plotting to streamline the production and train the other designers.
@@ -308,11 +308,11 @@ contracts:
 
       desc:
         es: |
-          Proyecto realizado en tres distintas ocaciones. En cada caso se realizo un par reuniones con la gerencia de la institución, una para escuchar ideas y sugerir un concepto, y la otra para presentar la propuesta.
-          Los requerimientos técnicos solicitados fueron desafiantes. Puesto que el tamaño final de la presentación no debia exeder 3 megabytes para que pudiese ser distribuido por correo electrónico, pero el contenido de texto, gráficos, audio, imágenes y animaciones requeridos eran abundantes.
-          No limitariamos la calidad de producto final a expensas de cumplir con el tamaño solicitado.
+          Proyecto realizado en tres distintas ocasiones. En cada caso se realizó un par reuniones con la gerencia de la institución, una para escuchar ideas y sugerir un concepto, y la otra para presentar la propuesta.
+          Los requerimientos técnicos solicitados fueron desafiantes. Puesto que el tamaño final de la presentación no debía exceder 3 megabytes para que pudiese ser distribuido por correo electrónico, pero el contenido de texto, gráficos, audio, imágenes y animaciones requeridos eran abundantes.
+          No limitaríamos la calidad de producto final a expensas de cumplir con el tamaño solicitado.
           Lo ideal hubiese sido reemplazar la presentación de multimedios por un sitio web, pero para el cliente no era posible cambiar los requerimientos licitados. La solución empezó a tomar forma al decidir no utilizar el software tradicional para presentaciones de multimedios (Macromedia Director) y utilizar un software que se usaba para hacer animaciones en páginas web (Flash) pues este último produce documentos comprimidos y optimizados.
-          Se de analizó la viavilidad técnica, y con la ayuda de las mejores técnicas de compresión se logró cumplir exitosamente con los requerimientos del proyecto exediendo las expectativas del cliente no solo en lo técnico sino en la alta calidad y profesionalismo del producto final.
+          Se analizó la viabilidad técnica, y con la ayuda de las mejores técnicas de compresión se logró cumplir exitosamente con los requerimientos del proyecto excediendo las expectativas del cliente no solo en lo técnico sino en la alta calidad y profesionalismo del producto final.
 
         en: |
           The requested specifications lead to serious technical challenges. The presentation's final size did not have to exceed 3 megabytes in order to be distributed by email, but the amount of text, graphics, audio, images, and animations required was substantial.
@@ -337,7 +337,7 @@ contracts:
 
       desc:
         es: Diseño y desarrollo de un sitio web para cada país sede del grupo.
-        en: nulo
+        en: Design and development of a website for the countries where the group is present.
 
       project:
         - es: Sitios web para la red bancaria.
@@ -389,11 +389,11 @@ contracts:
 
       desc:
         es: Curso para el departamento de diseño y diagramación.
-        en: nulo
+        en: Course for the design and layout department.
 
       project:
-        - es: Curso de Adobe Illustrador.
-          en: Adobe Illustrator course.
+        es: Curso de Adobe Ilustrador.
+        en: Adobe Illustrator course.
 
       date: 1993
 
@@ -405,10 +405,13 @@ contracts:
 
       desc:
         es: |
-          Rediseño de cadena de quioscos ubicados dentro del supermercado para el expendio de café en grano y molido.
-          Para el diseño se procuro crear una ambiente que combinara lo tradicional con lo moderno al combinar, madera y laminas acrilicas.
+          Rediseño de cadena de quioscos ubicados dentro de los supermercados para el expendio de café en grano y molido.
+          Para el diseño se procuró crear una ambiente que combinara lo tradicional con lo moderno al combinar, madera y laminas acrilicas.
           Al presentar el diseño al cliente, se le hace la oferta para fabricar los ocho locales, y se consigue el contrato.
-        en: nulo
+        en: |
+          Redesign of a chain of coffee bean and ground coffee sales kiosks located inside supermarkets.
+          By combining wood and acrylic sheets in the design, an attempt was made to create an environment that combined the traditional and the modern.
+          When the design was presented to the client, an offer to manufacture the eight premises was made, and the deal was reached.
 
       date: 1987
 
