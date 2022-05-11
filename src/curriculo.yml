@@ -24,7 +24,7 @@ jobs:
           Dirección exitosa de un proyecto constructivo, superando desafíos técnicos y administrativos.
           Con brillante manejo del presupuesto y buena coordinación con colaboradores altamente calificados se alcanzando un producto final de excelente calidad, a un costo muy competitivo.
         en: |
-          Remodeling of a house and construction of two apartments for rent.
+          Remodeling of a house and construction of two rental apartments.
           Successful management of a construction project, overcoming technical and administrative challenges.
           With great budget management and good coordination with highly qualified collaborators, a final product of excellent quality was achieved at a very competitive cost.
       tasks:
@@ -57,11 +57,11 @@ jobs:
 
       desc:
         es: |
-          Con buena entonación de la voz y amabilidad, se brindó a los clientes un genuino interés por ellos y por resolver efectivamente sus necesidades y o consultas.
-          Participación en la capacitación CompTIA A+ con el mejor promedio del grupo.
+          Se mostró a los clientes un interés real en ellos y en atender de manera eficiente sus solicitudes y/o inquietudes a través de un buen tono de voz y amabilidad.
+          Participación en la curso CompTIA A+ con el mejor promedio del grupo.
         en: |
           Customers were shown a real interest in them and in efficiently addressing their requests and/or concerns through good voice tone and friendliness.
-          Participation in CompTIA A+ training with the highest group average.
+          CompTIA A+ course participation with the highest grade in the group.
 
       date: 2017
 
@@ -73,7 +73,7 @@ jobs:
 
       desc:
         es: |
-          Un diseño único y moderno, con exquisito cuidado al detalle, se desarrollo sobre el concepto de simpleza y elegancia con un toque de originalidad.
+          Un diseño único y moderno, con exquisito atención al detalle, se desarrollo sobre el concepto de simpleza y elegancia con un toque de originalidad.
           Utilizamos las tecnologías más modernas para garantizar una experiencia fluida y eficaz.
         en: |
           A unique and modern design, with exquisite attention to detail, was developed on the concept of simplicity and elegance with a touch of originality.
@@ -101,16 +101,11 @@ jobs:
         es: |
           Mueblería ubicada en Río Frío de Sarapiquí.
           Ebanistería de muebles modernos y tradicionales de maderas solidas de alta calidad.
-
+          Experiencia con diversas técnicas para la elaboración de mobiliario de madera.
         en: |
-          Furniture store located in Río Frío de Sarapiquí.
-          Modern and traditional furniture craftsmanship made of high-quality solid woods.
-
-      tasks:
-        es:
-          - Amplia experiencia en mobiliario de madera.
-          - Muebles de cocina con melamina.
-          - Puertas
+          Furniture workshop located in Río Frío de Sarapiquí.
+          Furniture manufactured of high-quality solid woods in both modern and classic styles.
+          Working knowledge of a variety of woodworking methods.
 
       date: 2010 - 2014
 
@@ -162,17 +157,19 @@ jobs:
 
       desc:
         es: |
-          El puesto inicial es diseñador, pero pronto se adiciona el desarrollo web reduciendo costos y agilizando la productividad de la empresa.
-          Diseñar los proyectos más novedosos y relevantes de la empresa; como el sitio web principal de BetOnSports.com o el sitio InventaBet.com
-          Posisionamiento de la empresa como líder global en apuestas deportivas.
+          Contribuir al establecimiento de la empresa como líder global en apuestas deportivas.
+          El trabajo comenzó como diseñador, pero debido a las habilidades demostradas, el desarrollo web paso de ser subcontratado a manejarse internamente, lo que redujo los gastos y aumentó la productividad.
+          Diseñar los proyectos más novedosos y relevantes de la empresa; como el sitio web principal de la empresa, BetOnSports.com o el sitio InventaBet.com
         en: |
-          nulo
+         Contributing to establishing the company as a worldwide sports betting leader.
+         The job started as a designer, but due to demonstrated abilities, web development was brought in-house from an outsourced role, lowering expenses and increasing productivity.  
+         Design the company's most creative and significant initiatives, such as BetOnSports.com, the main website, and the InventaBet.com site.
 
       tasks:
         - es: Identidad de marca para Industria de apuestas deportivas.
           en: Brand identity for gambling and sports industry.
-        - es: Anunciados en prestigiosas publicaciones de U.S.A.
-          en: Announced in prestigious USA publications.
+        - es: Campañas en las mas populares revistas de U.S.A.
+          en: Ad campaigns in America's most popular magazines.
 
     - company: Sysde
 
@@ -185,8 +182,11 @@ jobs:
         es: |
           Posicionamiento de la imagen de la empresa como líder a nivel latinoamericano. A través de una campaña en medios impresos del área financiera, eventos, presentaciones, folletos especializados, correos y sitio web.
           Cotización, contratación y supervición de empresas litograficas, para la producción de materiales impresos.
-          Aprendizaje autodidacta de desarrollo web. En la empresa tube acceso a internet por primera vez y eso me motivo a aprender y solicitar la oportunidad de hacer el sitio web de la empresa.
-        en: nulo
+          Aprendizaje autodidacta de desarrollo web. El descubrir la internet por primera vez fue de gran motivación para aprender esta tecnología, lo que condujo a realizar el sitio web de la empresa.
+        en: |
+          Positioning the company's image as the Latin American leader. Through a print media campaign in the financial sector, as well as events, presentations, customized brochures, mailings, and a website.
+          Quote, hire, and supervise lithographic businesses for the creation of printed materials.
+          Self-taught web development. The excitement of discovering the Internet for the very first time fueled a desire to learn more about it, leading to the creation of the company's website. 
 
       tasks:
         - es: Identidad de marca para la industria de tecnología y finanzas.
@@ -214,7 +214,9 @@ jobs:
         es: |
           Pocicionamiento de la imagen de la empresa como líder nacional en productos macrobióticos.
           Implementacion de sistema de diseño digital en computadoras PC. Adquisición del equipo, conversión y configuración de documentos para poder ser procesados por fotocompositoras que trabajan en ambiente Macintosh.
-        en: nulo
+        en: |
+          The company's reputation as a national leader in macrobiotic goods was repositioned.
+          Digital design system implementation on PC computers. Equipment acquisition, workflow setup, and document conversion to enable the final arts of being proccesed by photocomposers operating in a Macintosh environment. 
 
       date: 1993 - 1996
 
@@ -237,15 +239,18 @@ jobs:
 
       desc:
         es: |
-          Aprendizaje autodidacta del `software` Adobe Ilustrador con manuales en inglés sin conocer el idioma.
-          Enseñanza de este software al departamento de diseño.
-          Implementación un sistema de producción de separaciones de color digitales, que se venia haciendo manualmente.
-          Reconocido como empleado del año por el Gerente General y Propietario de la empresa
+          Aprendizaje autodidacta del `software` Adobe Ilustrador basado en un manual en inglés a pesar de no conocer ahun el idioma.
+          Enseñanza del software al departamento de diseño.
+          Modernización del sistema de producción de separaciones de color de manuales a digitales.
+          Reconocimiento de empleado del año otorgado por el Gerente General y Propietario en la reunión anual.
 
         en: |
-          nulo
+          Autodidactic learning of the Adobe Illustrator software, based on an English manual, despite not knowing the language yet.
+          Software training for the design department.
+          Modernization of the color separation production system from manual to digital.
+          Recognition of the employee of the year granted by the owner at the annual meeting.
 
-      date: 1989 - 1992
+        date: 1989 - 1992
 
       tasks:
         - es: Identidad de marca para prendas de vestir.
@@ -271,9 +276,11 @@ jobs:
         es: |
           Contratado para el puesto de diseñador a la edad de 18 años.
           Elegido encargado del novedoso equipo de computo para digitalización y ploteo para modernizar la producción y de entrenar a los otros diseñadores.
-        en: nulo
+        en: |
+          Hired for the position of designer at the age of 18.
+          Assigned to manage the novel computer equipment for digitizing and plotting to streamline the production and train the other designers.
 
-      date: 1985 - 1986
+        date: 1985 - 1986
 
       tasks:
         - es: Diseño de rótulos luminosos.
@@ -299,10 +306,20 @@ contracts:
         es: Memoria Anual, virtual e impresa.
         en: Printed and virtual annual report.
 
-      desc: |
-        Reunirse con la gerencia de la institución para dar forma al concepto y presentar los bocetos.
-        Solucionar dificiles requerimientos técnicos, en cuanto al tamaño de la presentación digital y el contenido de texto, gráficos, audio, imágenes y animaciones que requeria.
+      desc:
+        es: |
+          Proyecto realizado en tres distintas ocaciones. En cada caso se realizo un par reuniones con la gerencia de la institución, una para escuchar ideas y sugerir un concepto, y la otra para presentar la propuesta.
+          Los requerimientos técnicos solicitados fueron desafiantes. Puesto que el tamaño final de la presentación no debia exeder 3 megabytes para que pudiese ser distribuido por correo electrónico, pero el contenido de texto, gráficos, audio, imágenes y animaciones requeridos eran abundantes.
+          No limitariamos la calidad de producto final a expensas de cumplir con el tamaño solicitado.
+          Lo ideal hubiese sido reemplazar la presentación de multimedios por un sitio web, pero para el cliente no era posible cambiar los requerimientos licitados. La solución empezó a tomar forma al decidir no utilizar el software tradicional para presentaciones de multimedios (Macromedia Director) y utilizar un software que se usaba para hacer animaciones en páginas web (Flash) pues este último produce documentos comprimidos y optimizados.
+          Se de analizó la viavilidad técnica, y con la ayuda de las mejores técnicas de compresión se logró cumplir exitosamente con los requerimientos del proyecto exediendo las expectativas del cliente no solo en lo técnico sino en la alta calidad y profesionalismo del producto final.
 
+        en: |
+          The requested specifications lead to serious technical challenges. The presentation's final size did not have to exceed 3 megabytes in order to be distributed by email, but the amount of text, graphics, audio, images, and animations required was substantial.
+          We would not compromise the final product's quality in order to achieve the specified size.
+          The ideal solution would have been to replace the multimedia presentation with a website, but the client's requirements could not be changed.
+          The solution began to take shape when it was decided to forgo traditional multimedia presentation software (Macromedia Director) in favor of software used to create web page animations (Flash), which creates compressed and optimized documents.
+          The technical feasibility was examined, and using the best compression techniques, the project requirements were met successfully, exceeding the client's expectations not just technically but also in terms of the final product's high quality and professionalism.
 
       tasks:
         - es: Diseño y desarrollo de presentación de multimedios.
@@ -318,7 +335,9 @@ contracts:
 
     - client: Grupo Promérica Centroamérica.
 
-      desc: Diseño y desarrollo de un sitio web para cada país sede del grupo.
+      desc:
+        es: Diseño y desarrollo de un sitio web para cada país sede del grupo.
+        en: nulo
 
       project:
         - es: Sitios web para la red bancaria.
@@ -368,7 +387,9 @@ contracts:
 
     - client: Periódico La Prensa Libre
 
-      desc: Curso para el departamento de diseño y diagramación.
+      desc:
+        es: Curso para el departamento de diseño y diagramación.
+        en: nulo
 
       project:
         - es: Curso de Adobe Illustrador.
@@ -387,7 +408,6 @@ contracts:
           Rediseño de cadena de quioscos ubicados dentro del supermercado para el expendio de café en grano y molido.
           Para el diseño se procuro crear una ambiente que combinara lo tradicional con lo moderno al combinar, madera y laminas acrilicas.
           Al presentar el diseño al cliente, se le hace la oferta para fabricar los ocho locales, y se consigue el contrato.
-          
         en: nulo
 
       date: 1987
