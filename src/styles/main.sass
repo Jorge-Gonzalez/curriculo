@@ -1,8 +1,14 @@
 @import 'pocketgrid.min.css'
 @import '../fonts/fonts.css'
 
+@media print
+  body, p, li, h3, .block
+    font-size: 8pt !important
+  .main
+    max-width: 100% !important
+
 // variables
-$h-gutter: 2
+$h-gutter: 4
 $v-gutter: 0
 
 
@@ -20,7 +26,6 @@ body
   padding: $v-gutter * 1em 0 0 $h-gutter * 1em
 
 .main
-  max-width: 1040px
   max-width: 1040px
   margin: 0 auto
   padding: 0 2em
