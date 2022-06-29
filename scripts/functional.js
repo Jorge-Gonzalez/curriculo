@@ -1,4 +1,4 @@
-;(function () {
+; (function() {
   'use strict'
 
   const _ = {}
@@ -11,33 +11,33 @@
   //     : fn(a, b)
   // }
 
-  const curry2 = _.curry2 = fn => function curried0of2 (a, b) {
-    return isPlaceholder(a) 
-      ? function curried2ndOf2 (_a) { return fn(_a, b) } 
+  const curry2 = _.curry2 = fn => function curried0of2(a, b) {
+    return isPlaceholder(a)
+      ? function curried2ndOf2(_a) { return fn(_a, b) }
       : b === void 0
-      ? function curried1stOf2 (_b) { return fn(a, _b) }
-      : fn(a, b)
+        ? function curried1stOf2(_b) { return fn(a, _b) }
+        : fn(a, b)
   }
 
-  const curry3 = _.curry3 = fn => function curried0of3 (a, b, c) {
+  const curry3 = _.curry3 = fn => function curried0of3(a, b, c) {
     return b === void 0
-      ? function curried1of3 (_b, _c) { return curried0of3(a, _b, _c) }
+      ? function curried1of3(_b, _c) { return curried0of3(a, _b, _c) }
       : c === void 0
-      ? function curried2of3 (_c) { return fn(a, b, _c) }
-      : fn(a, b, c)
+        ? function curried2of3(_c) { return fn(a, b, _c) }
+        : fn(a, b, c)
   }
 
-  ;['toLowerCase', 'toUpperCase', 'trim']
-    .forEach(name => (_[name] = (coll) => coll[name]()))
+    ;['toLowerCase', 'toUpperCase', 'trim']
+      .forEach(name => (_[name] = (coll) => coll[name]()))
 
-  ;['every', 'find', 'findIndex', 'indexOf', 'join', 'some', 'sort', 'match', 'split']
-    .forEach(name => (_[name] = curry2((arg, coll) => coll[name](arg))))
+    ;['every', 'find', 'findIndex', 'indexOf', 'join', 'some', 'sort', 'match', 'split']
+      .forEach(name => (_[name] = curry2((arg, coll) => coll[name](arg))))
 
-  ;['reduceRight', 'replace']
-    .forEach(name => (_[name] = curry3((arg1, arg2, coll) => coll[name](arg1, arg2))))
+    ;['reduceRight', 'replace']
+      .forEach(name => (_[name] = curry3((arg1, arg2, coll) => coll[name](arg1, arg2))))
 
-  ;['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error']
-    .forEach(t => (_['is' + t] = o => toString.call(o) === '[object ' + t + ']'))
+    ;['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error']
+      .forEach(t => (_['is' + t] = o => toString.call(o) === '[object ' + t + ']'))
 
   _._ = { '@@functional/placeholder': true }
 
@@ -76,15 +76,15 @@
 
   _.append = curry2((val, arr) => concat(arr, [val]))
 
-  const arity = function (n, fn) {
-    return n === 0 ? function () { return fn.apply(this, arguments) }
-         : n === 1 ? function (a0) { return fn.apply(this, arguments) }
-         : n === 2 ? function (a0, a1) { return fn.apply(this, arguments) }
-         : n === 3 ? function (a0, a1, a2) { return fn.apply(this, arguments) }
-         : n === 4 ? function (a0, a1, a2, a3) { return fn.apply(this, arguments) }
-         : n === 5 ? function (a0, a1, a2, a3, a4) { return fn.apply(this, arguments) }
-         : n === 6 ? function (a0, a1, a2, a3, a4, a5) { return fn.apply(this, arguments) }
-         : fn
+  const arity = function(n, fn) {
+    return n === 0 ? function() { return fn.apply(this, arguments) }
+      : n === 1 ? function(a0) { return fn.apply(this, arguments) }
+        : n === 2 ? function(a0, a1) { return fn.apply(this, arguments) }
+          : n === 3 ? function(a0, a1, a2) { return fn.apply(this, arguments) }
+            : n === 4 ? function(a0, a1, a2, a3) { return fn.apply(this, arguments) }
+              : n === 5 ? function(a0, a1, a2, a3, a4) { return fn.apply(this, arguments) }
+                : n === 6 ? function(a0, a1, a2, a3, a4, a5) { return fn.apply(this, arguments) }
+                  : fn
   }
 
   const arrayFromIterator = (iter) => {
@@ -104,7 +104,7 @@
   const curryN = (length, fn) => {
     let args = [], places = [], count = 0
 
-    return function curried () {
+    return function curried() {
       let newPlaces = [], i = 0, l = arguments.length, index
 
       for (; i < l; i++) {
@@ -124,7 +124,7 @@
 
   const cloneArray = arr => {
     let l = arr.length,
-        res = new Array(l), i = 0
+      res = new Array(l), i = 0
 
     for (; i < l; i++) res[i] = arr[i]
 
@@ -133,8 +133,8 @@
 
   const cloneObject = obj => {
     let keys = Object.keys(obj),
-        l = keys.length,
-        res = {}, i = 0, key
+      l = keys.length,
+      res = {}, i = 0, key
 
     for (; i < l; i++) {
       key = keys[i]
@@ -148,8 +148,8 @@
 
   const concat = (arrA, arrB = []) => {
     let lenA = arrA.length,
-        lenB = arrB.length,
-        res = Array(lenA + lenB), i
+      lenB = arrB.length,
+      res = Array(lenA + lenB), i
 
     for (i = 0; i < lenA; i++) res[i] = arrA[i]
     for (i = 0; i < lenB; i++) res[lenA++] = arrB[i]
@@ -167,9 +167,9 @@
 
   _.concat = curry2(concat)
 
-  _.complement = fn => function () { return !fn.apply(this, arguments) }
+  _.complement = fn => function() { return !fn.apply(this, arguments) }
 
-  _.compose = function () { return _.pipe.apply(this, cloneArray(arguments).reverse()) }
+  _.compose = function() { return _.pipe.apply(this, cloneArray(arguments).reverse()) }
 
   const contains = (val, arr) => arr.some(e => equals(e, val))
 
@@ -186,7 +186,7 @@
   _.chunk = curry2((size, arr) => {
     if (size <= 0) throw Error('chunk size must be positive')
     let res = [], i = 0,
-        j = 0, l = arr.length
+      j = 0, l = arr.length
 
     while (i < l) res[j++] = slice(i, i += size, arr)
 
@@ -225,20 +225,20 @@
 
   const equals = (a, b, stackA = [], stackB = [], t, keysA, idx) =>
     identical(a, b) ? true
-    : _.type(a) !== _.type(b) ? false
-    : a == null || b == null ? false
-    : typeof a.equals === 'function' || typeof b.equals === 'function' ? a.equals(b) && b.equals(a)
-    : includes((t = _.type(a)), ['Boolean', 'Number', 'String']) ? (typeof a === typeof b && identical(a.valueOf(), b.valueOf()))
-    : t === 'Date' ? identical(a.valueOf(), b.valueOf())
-    : t === 'Error' ? a.name === b.name && a.message === b.message
-    : t === 'RegExp' ? ['source', 'global', 'ignoreCase', 'multiline', 'sticky', 'unicode'].every(k => a[k] === b[k])
-    : t === 'Map' || t === 'Set' ? equals(arrayFromIterator(a.entries()), arrayFromIterator(b.entries()), stackA, stackB)
-    : !includes(t, ['Arguments', 'Array', 'Object', 'Int8Array', 'Uint8Array', 'Uint8ClampedArray', 'Int16Array', 'Uint16Array', 'Int32Array', 'Uint32Array', 'Float32Array', 'Float64Array', 'ArrayBuffer']) ? false
-    : (keysA = _.keys(a)).length !== _.keys(b).length ? 'length'// false
-    : (idx = indexOf(a, stackA)) !== -1 ? 'stack'// stackB[idx] === b
-    : (stackA.push(a) && stackB.push(b)) && any(key => !(has(key, b) && equals(b[key], a[key], stackA, stackB)), keysA) ? 'any'// false
-    : truty(stackA.pop(), stackB.pop())
-  
+      : _.type(a) !== _.type(b) ? false
+        : a == null || b == null ? false
+          : typeof a.equals === 'function' || typeof b.equals === 'function' ? a.equals(b) && b.equals(a)
+            : includes((t = _.type(a)), ['Boolean', 'Number', 'String']) ? (typeof a === typeof b && identical(a.valueOf(), b.valueOf()))
+              : t === 'Date' ? identical(a.valueOf(), b.valueOf())
+                : t === 'Error' ? a.name === b.name && a.message === b.message
+                  : t === 'RegExp' ? ['source', 'global', 'ignoreCase', 'multiline', 'sticky', 'unicode'].every(k => a[k] === b[k])
+                    : t === 'Map' || t === 'Set' ? equals(arrayFromIterator(a.entries()), arrayFromIterator(b.entries()), stackA, stackB)
+                      : !includes(t, ['Arguments', 'Array', 'Object', 'Int8Array', 'Uint8Array', 'Uint8ClampedArray', 'Int16Array', 'Uint16Array', 'Int32Array', 'Uint32Array', 'Float32Array', 'Float64Array', 'ArrayBuffer']) ? false
+                        : (keysA = _.keys(a)).length !== _.keys(b).length ? 'length'// false
+                          : (idx = indexOf(a, stackA)) !== -1 ? 'stack'// stackB[idx] === b
+                            : (stackA.push(a) && stackB.push(b)) && any(key => !(has(key, b) && equals(b[key], a[key], stackA, stackB)), keysA) ? 'any'// false
+                              : truty(stackA.pop(), stackB.pop())
+
   _.equals = curry2(equals)
   // every
   _.fill = curry2((val, arr) => {
@@ -255,9 +255,9 @@
 
   const filterObject = (fn, obj) => {
     let keys = Object.keys(obj),
-        l = keys.length, res = {}, i, k
+      l = keys.length, res = {}, i, k
     for (i = 0; i < l; i++) {
-      key = keys[i]
+      let key = keys[i]
       if (fn(obj[key], key, obj)) res[key] = obj[key]
     }
     return res
@@ -276,7 +276,7 @@
 
   _.findIndexes2 = curry2((fn, arr) => {
     let l = arr.length,
-        i = 0, j = 0, res = []
+      i = 0, j = 0, res = []
     for (; i < l; i++) {
       if (fn(arr[i])) res[j++] = i
     }
@@ -296,7 +296,7 @@
 
   _.flatten = (arr, res = []) => reduce((acc, val) => Array.isArray(val) ? _.flatten(val, acc) : acc.push(val) && acc, res, arr)
 
-  _.flip = f => curry2(function (a, b) {
+  _.flip = f => curry2(function(a, b) {
     let args = cloneArray(arguments)
     args[0] = b
     args[1] = a
@@ -312,20 +312,20 @@
 
   const forEachObject = (obj, fn) => {
     let keys = Object.keys(obj),
-        len = keys.length,
-        key, i
+      len = keys.length,
+      key, i
     for (i = 0; i < len; i++) {
       key = keys[i]
       fn(obj[key], key, obj)
     }
   }
-  
+
   _.forEach = curry2((f, e) => _.isArray(e) ? forEach(f, e) : forEachObject(f, e))
 
   _.fromPairs = prs => {
     let i = -1,
-        l = prs.length,
-        res = {}
+      l = prs.length,
+      res = {}
     while (++i < l) if (prs[i].length) res[prs[i][0]] = prs[i][1]
     return res
   }
@@ -379,10 +379,10 @@
   _.lt = curry2((a, b) => a < b)
 
   _.lte = curry2((a, b) => a <= b)
-  
+
   const map = (fn, arr) => {
     let l = arr.length,
-        res = Array(l), i = -1
+      res = Array(l), i = -1
 
     while (++i < l) res[i] = fn(arr[i], i, arr)
     return res
@@ -390,8 +390,8 @@
 
   const mapObject = (fn, obj) => {
     let keys = Object.keys(obj),
-        l = keys.length,
-        res = {}, i, key
+      l = keys.length,
+      res = {}, i, key
 
     for (i = 0; i < l; i++) {
       key = keys[i]
@@ -418,7 +418,7 @@
   }
 
   // match
-  _.memoize = (fn, hasher, cache = {}) => arity(fn.length, function (key) {
+  _.memoize = (fn, hasher, cache = {}) => arity(fn.length, function(key) {
     let address = '' + (hasher ? hasher(arguments) : key)
     if (!has(address, cache)) cache[address] = fn.apply(this, arguments)
     return cache[address]
@@ -446,12 +446,12 @@
 
   _.pick = curry2((keys, obj) => reduce((acc, key) => key in obj ? (acc[key] = obj[key]) && acc : acc, {}, keys))
 
-  _.pipe = function () {
+  _.pipe = function() {
     const funcs = cloneArray(arguments)
     return arity(
       funcs[0].length,
       reduce(
-        (composite, fn) => function () {
+        (composite, fn) => function() {
           return fn.call(this, composite.apply(this, arguments))
         },
         funcs[0], // head(funcs)
@@ -460,13 +460,13 @@
     )
   }
 
-  _.compose2 = function () {
+  _.compose2 = function() {
     let funcs = arguments
     let i = funcs.length - 1
     let last = funcs[i]
     return arity(
       last.length,
-      function () {
+      function() {
         let res = funcs[i].apply(this, arguments)
         while (i--) res = funcs[i].call(this, res)
         return res
@@ -474,27 +474,27 @@
     )
   }
 
-  _.compose3 = function () {
+  _.compose3 = function() {
     let funcs = arguments
     let start = funcs.length - 1
     let i = start
     let last = funcs[i]
     return arity(
       last.length,
-      function composed (x) {
+      function composed(x) {
         if (i === start) return composed(funcs[i].apply(this, arguments))
         else if (i--) return composed(funcs[i].call(this, x))
       }
     )
   }
 
-  function prepend (val, arr) {
+  function prepend(val, arr) {
     let i = -1
     const l = arr.length
     const res = Array(l + 1)
 
     res[0] = val
-    while (++i < l) res[i+1] = arr[i]
+    while (++i < l) res[i + 1] = arr[i]
     return res
   }
 
@@ -504,14 +504,14 @@
 
   _.prop = curry2((prop, obj) => obj[prop])
 
-  _.propEq = curry3((key, val, obj) => obj[ key ] === val)
+  _.propEq = curry3((key, val, obj) => obj[key] === val)
 
   _.props = curry2((props, obj) => props.map((p) => obj[p]))
 
   _.pluck = curry2((prop, arr) => {
     let l = arr.length,
-        res = [], j = 0,
-        obj, i = 0
+      res = [], j = 0,
+      obj, i = 0
 
     for (; i < l; i++) {
       obj = arr[i]
@@ -527,9 +527,9 @@
 
   _.range = curry2((start, end) => Array(end - start).fill(1).map((e, i) => i + start))
 
-  function reduce (fn, init, arr) {
+  function reduce(fn, init, arr) {
     let l = arr.length, i = 0,
-        res = init === undefined ? arr[i++] : init
+      res = init === undefined ? arr[i++] : init
 
     for (; i < l; i++) res = fn(res, arr[i], i, arr)
 
@@ -537,9 +537,9 @@
   }
 
   const reduceObject = (fn, init, obj) => {
-    let keys = Object.keys(obj), 
-        l = keys.length, i = 0, key, 
-        res = init === undefined ? obj[keys[i++]] : init
+    let keys = Object.keys(obj),
+      l = keys.length, i = 0, key,
+      res = init === undefined ? obj[keys[i++]] : init
 
     for (; i < l; i++) {
       key = keys[i]
@@ -550,10 +550,10 @@
   }
 
   _.reduce = curry3((f, ini, e) => Array.isArray(e) ? reduce(f, ini, e) : reduceObject(f, ini, e))
-  
+
   const reduceRight = (fn, init, arr) => {
     let l = arr.length,
-        res = init === undefined ? arr[--l] : init
+      res = init === undefined ? arr[--l] : init
 
     while (--l >= 0) {
       res = fn(res, arr[l], l, arr)
@@ -564,9 +564,9 @@
 
   const reduceRightObject = (fn, init, obj) => {
     let keys = Object.keys(obj),
-        l = keys.length,
-        key,
-        res = init === undefined ? obj[keys[--l]] : init
+      l = keys.length,
+      key,
+      res = init === undefined ? obj[keys[--l]] : init
 
     while (--l >= 0) {
       key = keys[l]
@@ -596,8 +596,8 @@
   })
 
   const slice = (start, end, arr) => {
-    let res, 
-        len = arr.length, i = 0
+    let res,
+      len = arr.length, i = 0
 
     start = start === undefined ? 0 : start < 0 ? start + len < 0 ? 0 : start + len : start
     end = end == null ? len : end < 0 ? end + len : end > len ? len : end
@@ -625,7 +625,7 @@
 
   _.takeWhile = curry2((fn, arr) => {
     let l = arr.length,
-        i = -1, res = []
+      i = -1, res = []
 
     while (++i < l && fn(arr[i])) res[i] = arr[i]
 
@@ -637,7 +637,7 @@
   _.takeLastWhile = curry2((fx, arr) => {
     let l = arr.length
 
-    while (--l > 0 && fx(arr[l])) {}
+    while (--l > 0 && fx(arr[l])) { }
 
     return slice(l + 1, null, arr)
   })
@@ -666,15 +666,15 @@
     let t = _.type(x), re
     return t === 'Arguments' ? '(function() { return arguments; }(' + map(recur, x).join(', ') + '))'
       : t === 'Array' ? '[' + map(recur, x).concat(mapPairs(x, reject(k => /^\d+$/.test(k), _.keys(x)))).join(', ') + ']'
-      : t === 'Boolean' ? typeof x === 'object' ? 'new Boolean(' + recur(x.valueOf()) + ')' : x.toString()
-      : t === 'Date' ? 'new Date(' + (isNaN(x.valueOf()) ? recur(NaN) : quote(x.toISOString())) + ')'
-      : t === 'Function' ? (re = x.toString()) && re !== '[object Object]' && re
-      : t === 'Null' ? 'null'
-      : t === 'Number' ? typeof x === 'object' ? 'new Number(' + recur(x.valueOf()) + ')' : 1 / x === -Infinity ? '-0' : x.toString(10)
-      : t === 'Object' ? '{' + mapPairs(x, _.keys(x)).join(', ') + '}'
-      : t === 'String' ? typeof x === 'object' ? 'new String(' + recur(x.valueOf()) + ')' : quote(x)
-      : t === 'Undefined' ? 'undefined'
-      : 'Not implemented :('
+        : t === 'Boolean' ? typeof x === 'object' ? 'new Boolean(' + recur(x.valueOf()) + ')' : x.toString()
+          : t === 'Date' ? 'new Date(' + (isNaN(x.valueOf()) ? recur(NaN) : quote(x.toISOString())) + ')'
+            : t === 'Function' ? (re = x.toString()) && re !== '[object Object]' && re
+              : t === 'Null' ? 'null'
+                : t === 'Number' ? typeof x === 'object' ? 'new Number(' + recur(x.valueOf()) + ')' : 1 / x === -Infinity ? '-0' : x.toString(10)
+                  : t === 'Object' ? '{' + mapPairs(x, _.keys(x)).join(', ') + '}'
+                    : t === 'String' ? typeof x === 'object' ? 'new String(' + recur(x.valueOf()) + ')' : quote(x)
+                      : t === 'Undefined' ? 'undefined'
+                        : 'Not implemented :('
   }
   // toUpperCase
   // trim
@@ -685,8 +685,8 @@
   _.uniq = arr => reduce((acc, val) => !contains(val, acc) ? acc.push(val) && acc : acc, [], arr)
 
   _.uniqWith = curry2((fn, arr) => {
-    let i = -1, l = arr.length, 
-        res = [], val
+    let i = -1, l = arr.length,
+      res = [], val
 
     while (++i < l) {
       val = arr[i]
@@ -698,7 +698,7 @@
 
   _.update = curry3((i, val, arr) => {
     const res = cloneArray(arr),
-          l = arr.length
+      l = arr.length
 
     if (i < 0) i = l + i
     if (i >= 0 && i < l) res[i] = val
@@ -708,17 +708,17 @@
 
   _.values = obj => {
     let keys = Object.keys(obj),
-        l = keys.length,
-        res = Array(l), i = 0
+      l = keys.length,
+      res = Array(l), i = 0
 
     for (; i < l; i++) res[i] = obj[keys[i]]
 
     return res
   }
 
-  _.without = curry2(function (vals, arr) {
+  _.without = curry2(function(vals, arr) {
     let l = arr.length, i = -1,
-        j = 0, res = [], val
+      j = 0, res = [], val
 
     while (++i < l) {
       val = arr[i]
@@ -731,7 +731,7 @@
   if (typeof exports === 'object') {
     module.exports = _
   } else if (typeof define === 'function' && define.amd) {
-    define(function () { return _ })
+    define(function() { return _ })
   } else {
     this._ = _
   }
