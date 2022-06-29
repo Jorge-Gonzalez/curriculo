@@ -16,15 +16,15 @@ html(lang= lang)
       .block-group
         .block.work
 
-          h2= jobs.title
+          h2= jobs
 
-          each work in jobs.content
+          each work in labors.filter(job => job.tags.includes('job'))
 
             if work.company
               h3.company= work.company
 
-            if work.job
-              p.job= work.job + ' ' + work.date
+            if work.labor
+              p.job= work.labor + ' ' + work.date
 
             if work.desc
               p.desc= work.desc
@@ -56,17 +56,18 @@ html(lang= lang)
                   | #{contact.behance}
 
         .block.contracts
-          h2= contracts.title
+          h2= contracts
           
-          each contract in contracts.content
+          each contract in labors.filter(labor => labor.tags.includes('contract'))
           
-            if contract.client
-              h3.client= contract.client
+            if contract.company
+              h3.client= contract.company
 
-            p.contract= contract.project + ' ' + contract.date
+            p.contract= contract.labor + ' ' + contract.date
 
             if contract.desc
-              p= contract.desc
+              each paragrap in contract.desc.split('\n\n')
+                p #{paragrap}
 
             if contract.tasks
               ul
@@ -84,7 +85,7 @@ html(lang= lang)
 
           h2= languages.title
           ul
-            each lang in languages.list
+            each lang in languages.content
               li= lang
 
           h2= interests.title
