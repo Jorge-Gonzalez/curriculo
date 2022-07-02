@@ -14,41 +14,45 @@ tagList:
   - &customer_service customer_service
   - &teaching teaching
 
+monthNames:
+  es: [ Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Set, Oct, Nov, Dic ]
+  en: [ Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec ]
+
 tags: 
   - id: job
-    name:
+    label:
       es: empleos
       en: jobs
   - id: contract
-    name:
+    label:
       es: contratos
       en: contracts
   - id: furniture
-    name:
+    label:
       es: muebles
       en: furniture
   - id: construction
-    name:
+    label:
       es: construcción
       en: construction
   - id: graphic_design
-    name:
+    label:
       es: diseño gráfico
       en: graphic design
   - id: web_development
-    name:
+    label:
       es: desarrollo web
       en: web development
   - id: multimedia
-    name:
+    label:
       es: multimedios
       en: multimedia
   - id: customer_service
-    name:
+    label:
       es: servicio al cliente
       en: customer service
   - id: teaching
-    name:
+    label:
       es: capacitaciones
       en: training
 
@@ -98,8 +102,8 @@ labors:
       - Plumbing.
       - Carpentry and finishing.
   date:
-    - 2020
-    - 2021
+    - 2020-01-01
+    - 2021-11-01
 
 - tags:
     - *job
@@ -116,7 +120,8 @@ labors:
       Customers were shown a real interest in them and in efficiently addressing their requests and/or concerns through good voice tone and friendliness.
       CompTIA A+ course participation with the highest grade in the group.
   date:
-    - 2017
+    - 2017-05-01
+    - 2017-10-01
 
 - tags:
     - *job
@@ -143,7 +148,8 @@ labors:
       - Sass, Pug, Coffeescript, Grunt, Nodejs.
       - Photography.
   date:
-    - 2015
+    - 2015-06-01
+    - 2015-12-01
 
 - tags:
     - *job
@@ -164,8 +170,8 @@ labors:
       Furniture manufactured of high-quality solid woods in both modern and classic styles.
       Working knowledge of a variety of woodworking methods.
   date:
-    - 2010
-    - 2014
+    - 2010-06-01
+    - 2014-02-01
 
 - tags:
     - *job
@@ -182,7 +188,8 @@ labors:
     en: Provide tourists with an immersive experience through the rainforest's wonderful
       natural landscapes.
   date:
-    - 2010
+    - 2010-03-01
+    - 2010-05-01
 
 - tags:
     - *job
@@ -193,8 +200,8 @@ labors:
     es: Encargado del departamento web.
     en: In charge of the web department.
   date:
-    - 2007
-    - 2009
+    - 2007-02-01
+    - 2009-04-01
 
 - tags:
     - *job
@@ -216,8 +223,8 @@ labors:
       Create engaging user experiences and effective user interactions.
       Keep up to date with industry standards and trends.
   date:
-    - 2003
-    - 2006
+    - 2002-06-01
+    - 2005-03-01
 
 - tags:
     - *job
@@ -245,8 +252,8 @@ labors:
       - Brand identity for gambling and sports industry.
       - Ad campaigns in America's most popular magazines.
   date:
-    - 1999
-    - 2002
+    - 1999-10-01
+    - 2002-05-01
 
 - tags:
     - *job
@@ -285,8 +292,8 @@ labors:
       - Macromedia Flash, Dynamic HTML, Javascript.
       - Multimedia presentations, with Macromedia Director.
   date:
-    - 1997
-    - 1999
+    - 1997-01-01
+    - 1999-04-01
 
 - tags:
     - *job
@@ -317,8 +324,8 @@ labors:
       - Digital design on PC computers with the software Corel Draw, PhotoStyler and Photoshop.
       - Final arts for flexography.
   date:
-    - 1993
-    - 1996
+    - 1993-03-01
+    - 1996-02-01
 
 - tags:
     - *job
@@ -354,8 +361,8 @@ labors:
       - Computer generated color separations.
       - Departmental training in digital design with Macintosh computers.
   date:
-    - 1989
-    - 1992
+    - 1989-07-01
+    - 1992-02-01
 
 - tags:
     - *job
@@ -429,9 +436,9 @@ labors:
       - 3D modeling, animation.
       - Cinema 4D.
   date:
-    - 2004
-    - 2006
-    - 2007
+    - 2004-07-01
+    - 2005-07-01
+    - 2006-07-01
 
 - tags:
     - *contract
@@ -445,7 +452,8 @@ labors:
     es: Diseño y desarrollo de un sitio web para cada país sede del grupo.
     en: Design and development of a website for the countries where the group is present.
   date:
-    - 2002
+    - 2002-04-01
+    - 2002-07-01
 
 - tags:
     - *contract
@@ -456,7 +464,7 @@ labors:
   - es: Sitio web de la empresa, e interfaz para aplicación web.
     en: Company's website and web app interface.
   date:
-    - 2001
+    - 2001-04-01
 
 - tags:
     - *contract
@@ -467,7 +475,7 @@ labors:
     es: Sitio web institucional.
     en: Institutional website.
   date:
-    - 1998
+    - 1998-03-01
 
 - tags:
     - *contract
@@ -477,7 +485,7 @@ labors:
     es: Ilustraciones para libros escolares de primaria.
     en: Illustrations for elementary school books.
   date:
-    - 1996
+    - 1996-06-01
 
 - tags:
     - *contract
@@ -487,7 +495,7 @@ labors:
     es: Diseño de portadas para varios libros.
     en: Design of book covers.
   date:
-    - 1994
+    - 1994-06-01
 
 - tags:
     - *contract
@@ -498,7 +506,7 @@ labors:
     es: Curso de Corel Draw.
     en: Corel Draw course.
   date:
-    - 1994
+    - 1994-10-01
 
 - tags:
     - *contract
@@ -512,7 +520,7 @@ labors:
     es: Curso de Adobe Ilustrador.
     en: Adobe Illustrator course.
   date:
-    - 1988
+    - 1993-04-01
 
 - tags:
     - *contract
@@ -547,19 +555,20 @@ labors:
       - Sub contracting and manufacturing supervision.
       - Manufacture of urns with acrylic molding techniques.
   date:
-    - 1987
+    - 1988-02-01
+    - 1989-05-01
 
 recognitions:
   title:
     es: Reconocimientos
     en: Recognitions
   content:
-    desc:
-      es: 'Primer premio: Concurso Nacional, Diseño de Portadas de la Guía Telefónica
-        del ICE.'
-      en: 'First Prize: Cover Design Contest of the ICE Telephone Guide.'
-    date:
-    - 1995
+    - desc:
+        es: 'Primer premio: Concurso Nacional, Diseño de Portadas de la Guía Telefónica
+          del ICE.'
+        en: 'First Prize: Cover Design Contest of the ICE Telephone Guide.'
+      date:
+        - 1995-10-01
 
 education:
   title:
@@ -591,7 +600,8 @@ interests:
 
 contact:
   mail: jorge.gonzalez@live.com
-  phone: "+506 83929512"
+  phone: "+506 6273 9336"
   location: San José, Costa Rica.
   behance: behance.net/JorgeG
+  github: github.com/Jorge-Gonzalez
 

@@ -1,3 +1,6 @@
+- const parseDate = (dateStr, monthNames, d = new Date(dateStr)) => ` ${monthNames[d.getMonth()]} ${d.getFullYear()}`
+// - const parseDate = (dateStr, monthNames, d = new Date(dateStr)) => dateStr
+
 doctype html
 html(lang= lang)
   head
@@ -24,7 +27,8 @@ html(lang= lang)
               h3.company= work.company
 
             if work.labor
-              p.job= work.labor + ' ' + work.date
+              p.job= work.labor
+                span.date= work.date.map(dateStr => parseDate(dateStr, monthNames))
 
             if work.desc
               p.desc= work.desc
@@ -33,6 +37,7 @@ html(lang= lang)
               ul
                 each task in work.tasks
                   li= task
+              
 
         .block.photo
 
@@ -54,6 +59,10 @@ html(lang= lang)
                 a(href='https://www.' + contact.behance)
                   img.icon(src="images/behance.svg")
                   | #{contact.behance}
+              li
+                a(href='https://www.' + contact.github)
+                  img.icon(src="images/github.svg")
+                  | #{contact.github}
 
         .block.contracts
           h2= contracts
@@ -63,7 +72,8 @@ html(lang= lang)
             if contract.company
               h3.client= contract.company
 
-            p.contract= contract.labor + ' ' + contract.date
+            if contract.labor
+              p.contract= contract.labor
 
             if contract.desc
               each paragrap in contract.desc.split('\n\n')
@@ -74,11 +84,15 @@ html(lang= lang)
                 each task in contract.tasks
                   li= task
 
+            if contract.date
+              p.date= contract.date.map(dateStr => parseDate(dateStr, monthNames))
+
         .block.other
           h2= recognitions.title
 
           each recognition in recognitions.content
-            p= recognition.desc + recognition.date
+            p= recognition.desc
+            p.date= recognition.date.map(dateStr => parseDate(dateStr, monthNames))
 
           h2= education.title
           p= education.content
